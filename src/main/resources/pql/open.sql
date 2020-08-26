@@ -1,0 +1,5 @@
+DEBUG ON;
+
+OPEN DEFAULT;
+
+SELECT * FROM table1;

@@ -1,0 +1,32 @@
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'idea'
+
+group = 'io.qross'
+version = '0.6.4'
+sourceCompatibility = 1.8
+
+archivesBaseName = "qross-pql-example"
+
+repositories {
+	maven{
+		url "https://maven.aliyun.com/repository/public/"
+	}
+    maven{
+		credentials {
+			username 'PtbpNI'
+			password 'kwCz3C0wHx'
+		}
+		url "https://packages.aliyun.com/maven/repository/2011186-snapshot-FSoDsK/"
+    }
+	jcenter()
+	mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.scala-lang', name: 'scala-library', version: '2.12.4'
+	//主要依赖
+    compile group: 'io.qross', name: 'pql', version: '0.6.4-30-SNAPSHOT'
+	//如果不用Redis可去掉
+	compile group: 'redis.clients', name: 'jedis', version: '3.3.0'
+}
