@@ -26,7 +26,7 @@ repositories {
 dependencies {
     compile group: 'org.scala-lang', name: 'scala-library', version: '2.12.4'
 	//主要依赖
-    compile group: 'io.qross', name: 'pql', version: '0.6.4-30-SNAPSHOT'
+    compile group: 'io.qross', name: 'pql', version: '0.6.4-40-SNAPSHOT'
 	//如果不用Redis可去掉
 	compile group: 'redis.clients', name: 'jedis', version: '3.3.0'
 }
