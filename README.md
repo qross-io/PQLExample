@@ -1,6 +1,6 @@
 # PQL示例项目
 
-这是一个PQL示例项目，适用于数据脚本开发，后端接口开发见[OneApi示例项目](http://www.qross.cn/oenapi/quick) 。
+这是一个PQL示例项目，适用于数据脚本开发，后端接口开发见[OneApi示例项目](http://www.qross.cn/oneapi/quick) 。
 
 ## 项目开发环境要求
 
