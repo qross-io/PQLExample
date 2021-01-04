@@ -15,7 +15,7 @@
 
 ## 技术支持
 
-**官方网站 [www.qross.io](http://www.qross.io)**  
+**官方网站 [www.qross.io](http://www.qross.cn)**  
 **作者邮箱 [wu@qross.io](mailto:wu@qross.io)**
 
 ## 参考链接
