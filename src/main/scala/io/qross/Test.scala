@@ -1,5 +1,6 @@
 package io.qross
 
+import io.qross.ext.Console
 import io.qross.pql.PQL
 
 object Test {

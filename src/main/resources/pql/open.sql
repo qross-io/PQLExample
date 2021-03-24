@@ -2,4 +2,4 @@ DEBUG ON;
 
 OPEN DEFAULT;
 
-SELECT * FROM table1;
+SELECT * FROM qross_jobs;
